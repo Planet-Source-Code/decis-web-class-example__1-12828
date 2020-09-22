@@ -1,0 +1,35 @@
+<html>
+<head>
+<title>Untitled Document</title>
+<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+</head>
+
+<body bgcolor="#ffffff">
+<div align="center">
+  <p><b><font color="#cc0066">Simple Web Class Example</font></b></p>
+  <p align="left"> If you are going to start from fresh, ensure that your form 
+    is connected to the appropriate webclass, this is done from VB, Actions in 
+    the response event of this webclass will occur when you press submit. (Images 
+    must be copied into the application/images directory for them to appear, and 
+    also in the HTML Templates directoery at design time.</p>
+  <p align="left">&nbsp;</p>
+  <form method="post" action="Start.ASP?WCI=WC_frmSubmit&amp;WCU" name="frmsimExamp">
+    <div align="left">
+      <p> 
+        <input name="textfield" >
+        Enter Your Name (in upper case)</p>
+      <p> 
+        <input type="submit" name="cmdGo" value="Go">
+        <input type="reset" name="cmdClear" value="Clear">
+      </p>
+      <p> </p>
+    </div>
+  </form>
+  
+  <p align="left">Just as an example the code will pass the value you enter, to 
+    a module reformat it i.e. TEST will become Test, and then generate adhoc HTML. 
+  </p>
+  <p align="left">Hope this can start you off in the right direction.</p>
+</div>
+</body>
+</html>
